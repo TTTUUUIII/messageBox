@@ -317,7 +317,7 @@ short Register(const char* u_p)
 {
     FILE* fp;
     short flag = -1;
-    if((fp = fopen("./USER_DATABASE", "a")) == NULL)
+    if((fp = fopen("./USER_DATABASE", "a+")) == NULL)
     {
         fprintf(stderr, "failed to open USER_DATABASE");
     }
