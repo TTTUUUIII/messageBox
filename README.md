@@ -1,4 +1,4 @@
-# messageBo
+# messageBox
 ## 1. 介绍
 - 这是一个基于Socket简易聊天程序
 ## 2. 服务端编译
