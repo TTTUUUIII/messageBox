@@ -18,9 +18,8 @@ public class DataRepository {
     private Context context;
     private static final String TAG = DataRepository.class.getSimpleName();
     private Socket socket;
-//    private static final String SERVER_IP = "10.68.28.119";
+    // 服务器 IP 地址
     private static final String SERVER_IP = "10.68.7.148";
-//    private static final String SERVER_IP = "192.168.129.221";
     private static final Integer SERVER_PORT = 3333;
     private static DataRepository INSTANCE = null;
     private static boolean sign = false;

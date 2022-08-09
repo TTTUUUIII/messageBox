@@ -321,7 +321,7 @@ short Register(const char* u_p)
     {
         fprintf(stderr, "failed to open USER_DATABASE");
     }
-    flag = fprintf(fp, "%s", u_p);
+    flag = fprintf(fp, "%s\n", u_p);
     fflush(fp);
     return flag;
 }
